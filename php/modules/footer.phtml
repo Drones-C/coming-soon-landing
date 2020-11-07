@@ -1,0 +1,27 @@
+<div class="text-center text-light" style="margin-top: 100px; padding-bottom: 20px;">
+	© DronesC 2020<br>
+	<a href="mailto:info@drones-c.com" class="text-main">info@drones-c.com</a>
+
+	<div class="text-center mb-3 mt-3">
+		<?=$__translations['cc'];?><br>
+
+		<div class="btn-group dropup">
+			<a href="#" class="dropdown-toggle text-main" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<img src="img/<?=$lang;?>.svg?1" class="nav-ico d-none"><?=strtoupper($lang);?>
+			</a>
+			<div class="dropdown-menu" style="background: #821CF8;">
+				<div class="card card2 card-body">
+					<a href="?lang=en" class="text-left btn btn-block <?php if($lang=="en") echo 'btn-outline-dark disabled text-dark'; else echo 'btn-outline-danger';?>">
+						English
+					</a>
+					<a href="?lang=ru" class="text-left btn btn-block <?php if($lang=="ru") echo 'btn-outline-dark disabled text-dark'; else echo 'btn-outline-danger';?>">
+						Русский
+					</a>
+					<a href="?lang=ro" class="text-left btn btn-block <?php if($lang=="ro") echo 'btn-outline-dark disabled text-dark'; else echo 'btn-outline-danger';?>">
+						Romanian
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
