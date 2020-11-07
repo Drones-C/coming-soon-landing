@@ -14,7 +14,7 @@ require_once("php/controller/controller.php");
 <head>
     <?php include("php/configs/header.phtml");?>
 </head>
-<body class="bg-white2">
+<body>
 <?php
     include_once "php/controller/index.php";
 ?>
