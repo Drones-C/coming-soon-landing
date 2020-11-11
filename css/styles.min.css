@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .text-main {
-	color: #821CF8 !important;
+	color: #FCD532 !important;
 }
 
 .logo {
@@ -25,12 +25,16 @@ h1 {
 }
 
 .btn-outline-danger {
-    color: #821CF8;
-    border-color: #821CF8 !important;
+    color: #FCD532;
+    border-color: #FCD532 !important;
 }
 
 .btn-outline-danger:hover {
     color: #fff;
-    background-color: #821CF8 !important;
-    border-color: #821CF8 !important;
+    background-color: #FCD532 !important;
+    border-color: #FCD532 !important;
+}
+
+.card {
+	background-color: #131313 !important;
 }
