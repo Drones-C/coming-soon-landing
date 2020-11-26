@@ -37,4 +37,15 @@ h1 {
 
 .card {
 	background-color: #131313 !important;
+.btn-main {
+	background: #FCD532;
+	border-radius: 5px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 15px;
+	text-align: center;
+	color: #131313;
+	padding: 21px 40px;
 }
