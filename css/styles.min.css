@@ -5,11 +5,11 @@
 }
 
 .logo {
-	background-color: #fff;
+	background-color: #FCD532;
 	border-radius: 50rem;
 	padding: 8px;
-	width: 64px;
-    height: 64px;
+	width: 74px;
+    height: 74px;
     padding: 8px;
 }
 
@@ -37,6 +37,8 @@ h1 {
 
 .card {
 	background-color: #131313 !important;
+}
+
 .btn-main {
 	background: #FCD532;
 	border-radius: 5px;
